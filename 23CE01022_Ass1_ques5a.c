@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-printf("\n 00001");
-printf("\n 00012");
-printf("\n 00123");
-printf("\n 01234");
-printf("\n 12345");
-return 0;
+    int a=1,b=12,c=123,d=1234,f=12345;
+    printf("\n0000%d",a);
+    printf("\n000%d",b);
+    printf("\n00%d",c);
+    printf("\n0%d",d);
+    printf("\n%d",f);
+    return 0;    
 }
